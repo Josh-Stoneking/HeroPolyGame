@@ -6,6 +6,7 @@
 
 class Hero : public Entity {
   private:
+  int health = 100;
   std::string name = "";
   public:
     Hero();
@@ -13,7 +14,7 @@ class Hero : public Entity {
     virtual ~Hero();
 
     std::string getName();
-    void test() const override;
+    int getHealth();
 };
 
 #endif

@@ -2,11 +2,9 @@
 #define ENTITY_H
 
 class Entity {
-public:
+  public:
   Entity();
   virtual ~Entity();
-
-  virtual void test() const;
 };
 
 #endif

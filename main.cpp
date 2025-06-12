@@ -1,5 +1,8 @@
 #include <iostream>
 #include "entity/Hero.h"
+#include "entity/BadGuy.h"
+#include "BattleSystem.h"
+#include "Inn.h"
 #include "Game.h"
 
 // organize a level some how
