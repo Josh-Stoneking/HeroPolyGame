@@ -1,0 +1,3 @@
+/Users/joshstoneking/VSCode/heroGamePoly/build/CMakeFiles/heroGame.dir
+/Users/joshstoneking/VSCode/heroGamePoly/build/CMakeFiles/edit_cache.dir
+/Users/joshstoneking/VSCode/heroGamePoly/build/CMakeFiles/rebuild_cache.dir
