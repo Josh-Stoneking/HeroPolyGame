@@ -1,5 +1,4 @@
 #include "Game.h"
-#include <iostream>
 
 Game::Game() : state(GameState::START), hero(nullptr) {}
 
@@ -29,15 +28,14 @@ void Game::run() {
 
 void Game::start() {
     // Ask for name, create hero, set up first level
-    std::string name = askCharName();
+    std::string name = Hero::askCharName();
     hero = new Hero(name);
-    // ...set up enemies...
     state = GameState::BATTLE;
 }
 
 void Game::battle() {
     // Run battle logic
-    battleSystem.startBattle(*hero, enemies);
+    battleSystem.startBattle(hero);
     if (hero->isAlive()) {
         state = GameState::INN;
     } else {
@@ -46,10 +44,8 @@ void Game::battle() {
 }
 
 void Game::visitInn() {
-    // Let hero rest, buy items, etc.
-    inn.visit(*hero);
-    // ...prepare next level or end game...
-    state = GameState::BATTLE; // or EXIT if done
+    inn.visit(hero);
+    state = GameState::BATTLE;
 }
 
 void Game::gameOver() {

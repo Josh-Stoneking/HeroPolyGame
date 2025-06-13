@@ -1,4 +1,4 @@
-#include "Entity.h"
+#include "BadGuy.h"
 
-Entity::Entity() {}
-Entity::~Entity() {}
+BadGuy::BadGuy() {}
+BadGuy::~BadGuy() {}

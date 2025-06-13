@@ -2,7 +2,6 @@
 #define HERO_H
 
 #include "Entity.h"
-#include <string>
 
 class Hero : public Entity {
   private:
@@ -13,6 +12,8 @@ class Hero : public Entity {
     Hero(std::string aName);
     virtual ~Hero();
 
+    bool isAlive();
+    static std::string askCharName();
     std::string getName();
     int getHealth();
 };

@@ -1,0 +1,10 @@
+^C:\GITREPOS\HEROPOLYGAME\BUILD\CMAKEFILES\727EFAF2AD7E7113E294E0359FF4DF5F\GENERATE.STAMP.RULE
+setlocal
+C:\mingw64\bin\cmake.exe -SC:/GitRepos/HeroPolyGame -BC:/GitRepos/HeroPolyGame/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/GitRepos/HeroPolyGame/build/heroPolyGame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -12,12 +12,7 @@
 // one start area and one final boss
 // visit the Inn between levels (sleep, buy better weapon, armour, potion)
 
-std::string askCharName() {
-  std::string charName;
-  std::cout << "What is your name?: ";
-  std::getline(std::cin, charName);
-  return charName;
-}
+
 
 Hero* createHero(std::string aName) {
   return new Hero(aName);

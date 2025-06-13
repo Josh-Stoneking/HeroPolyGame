@@ -1,8 +1,9 @@
 #include "entity/Hero.h"
 #include "entity/BadGuy.h"
-#include "BattleSystem.h"
-#include "Inn.h"
+#include "GameStates/BattleSystem.h"
+#include "GameStates/Inn.h"
 #include <vector>
+#include <iostream>
 
 enum class GameState { START, BATTLE, INN, GAME_OVER, EXIT };
 

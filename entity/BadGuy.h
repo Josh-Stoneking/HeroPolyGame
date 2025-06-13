@@ -1,10 +1,12 @@
 #ifndef BADGUY_H
 #define BADGUY_H
 
+#include "Entity.h"
+
 class BadGuy : public Entity {
-private:
-int health
 public:
+BadGuy();
+~BadGuy();
 };
 
 #endif
