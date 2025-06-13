@@ -3,21 +3,19 @@ project(heroPolyGame)
 
 set(CMAKE_CXX_STANDARD 14)
 
-# Add the entity and GameStates folders to the include path
+# Add include directories
 include_directories(${PROJECT_SOURCE_DIR})
 include_directories(${PROJECT_SOURCE_DIR}/entity)
 include_directories(${PROJECT_SOURCE_DIR}/GameStates)
+include_directories(${PROJECT_SOURCE_DIR}/Weapons)
 
-# List your source files
-set(SOURCES
-    main.cpp
-    Game.cpp
-    entity/Entity.cpp
-    entity/Hero.cpp
-    entity/BadGuy.cpp
-    entity/BadWarrior.cpp
-    GameStates/BattleSystem.cpp
-    GameStates/Inn.cpp
+# Automatically find all .cpp files in the project and subdirectories
+file(GLOB_RECURSE SOURCES
+    "${PROJECT_SOURCE_DIR}/entity/*.cpp"
+    "${PROJECT_SOURCE_DIR}/GameStates/*.cpp"
+    "${PROJECT_SOURCE_DIR}/Weapons/*.cpp"
+    "${PROJECT_SOURCE_DIR}/main.cpp"
+    "${PROJECT_SOURCE_DIR}/Game.cpp"
 )
 
 add_executable(heroPolyGame ${SOURCES})

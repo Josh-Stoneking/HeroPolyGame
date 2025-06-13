@@ -1,16 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\GitRepos\HeroPolyGame\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="C:\GitRepos\HeroPolyGame\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GitRepos\HeroPolyGame\entity\Entity.cpp">
+    <ClCompile Include="C:\GitRepos\HeroPolyGame\GameStates\BattleSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GitRepos\HeroPolyGame\entity\Hero.cpp">
+    <ClCompile Include="C:\GitRepos\HeroPolyGame\GameStates\Inn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GitRepos\HeroPolyGame\Weapons\Bow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GitRepos\HeroPolyGame\Weapons\Hammer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GitRepos\HeroPolyGame\Weapons\Sword.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GitRepos\HeroPolyGame\Weapons\Weapon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\GitRepos\HeroPolyGame\entity\BadGuy.cpp">
@@ -19,10 +28,13 @@
     <ClCompile Include="C:\GitRepos\HeroPolyGame\entity\BadWarrior.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GitRepos\HeroPolyGame\GameStates\BattleSystem.cpp">
+    <ClCompile Include="C:\GitRepos\HeroPolyGame\entity\Entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\GitRepos\HeroPolyGame\GameStates\Inn.cpp">
+    <ClCompile Include="C:\GitRepos\HeroPolyGame\entity\Hero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GitRepos\HeroPolyGame\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
