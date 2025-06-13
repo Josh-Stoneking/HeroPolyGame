@@ -12,10 +12,13 @@ class Hero : public Entity {
     Hero(std::string aName);
     virtual ~Hero();
 
+    static Hero* createHero(std::string aName);
     bool isAlive();
     static std::string askCharName();
     std::string getName();
     int getHealth();
+
+    void takeDamage(int damageNum);
 };
 
 #endif

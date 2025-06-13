@@ -1,0 +1,8 @@
+C:\GitRepos\HeroPolyGame\main.cpp;C:\GitRepos\HeroPolyGame\build\heroPolyGame.dir\Debug\main.obj
+C:\GitRepos\HeroPolyGame\Game.cpp;C:\GitRepos\HeroPolyGame\build\heroPolyGame.dir\Debug\Game.obj
+C:\GitRepos\HeroPolyGame\entity\Entity.cpp;C:\GitRepos\HeroPolyGame\build\heroPolyGame.dir\Debug\Entity.obj
+C:\GitRepos\HeroPolyGame\entity\Hero.cpp;C:\GitRepos\HeroPolyGame\build\heroPolyGame.dir\Debug\Hero.obj
+C:\GitRepos\HeroPolyGame\entity\BadGuy.cpp;C:\GitRepos\HeroPolyGame\build\heroPolyGame.dir\Debug\BadGuy.obj
+C:\GitRepos\HeroPolyGame\entity\BadWarrior.cpp;C:\GitRepos\HeroPolyGame\build\heroPolyGame.dir\Debug\BadWarrior.obj
+C:\GitRepos\HeroPolyGame\GameStates\BattleSystem.cpp;C:\GitRepos\HeroPolyGame\build\heroPolyGame.dir\Debug\BattleSystem.obj
+C:\GitRepos\HeroPolyGame\GameStates\Inn.cpp;C:\GitRepos\HeroPolyGame\build\heroPolyGame.dir\Debug\Inn.obj

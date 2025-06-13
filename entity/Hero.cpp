@@ -7,8 +7,12 @@ Hero::Hero() {}
 Hero::Hero(std::string aName) {name = aName;}
 Hero::~Hero() {}
 
+Hero* Hero::createHero(std::string aName) {
+  return new Hero(aName);
+}
+
 bool Hero::isAlive() {
-  return (health > 0);
+  return (this->health > 0);
 }
 
 std::string Hero::askCharName() {
@@ -24,4 +28,8 @@ std::string Hero::getName() {
 
 int Hero::getHealth() {
   return health;
+}
+
+void Hero::takeDamage(int damageNum) {
+  this->health -= damageNum;
 }

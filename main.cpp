@@ -1,8 +1,8 @@
 #include <iostream>
 #include "entity/Hero.h"
 #include "entity/BadGuy.h"
-#include "BattleSystem.h"
-#include "Inn.h"
+#include "GameStates/BattleSystem.h"
+#include "GameStates/Inn.h"
 #include "Game.h"
 
 // organize a level some how
@@ -11,12 +11,6 @@
 // two to three levels
 // one start area and one final boss
 // visit the Inn between levels (sleep, buy better weapon, armour, potion)
-
-
-
-Hero* createHero(std::string aName) {
-  return new Hero(aName);
-}
 
 int main() {
     Game game;

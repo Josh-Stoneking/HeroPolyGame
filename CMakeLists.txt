@@ -4,6 +4,7 @@ project(heroPolyGame)
 set(CMAKE_CXX_STANDARD 14)
 
 # Add the entity and GameStates folders to the include path
+include_directories(${PROJECT_SOURCE_DIR})
 include_directories(${PROJECT_SOURCE_DIR}/entity)
 include_directories(${PROJECT_SOURCE_DIR}/GameStates)
 

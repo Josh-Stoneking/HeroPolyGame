@@ -2,7 +2,7 @@
 #define INN_H
 
 #include <iostream>
-#include "Entity/Hero.h"
+#include "entity/Hero.h"
 
 class Inn {
 public:

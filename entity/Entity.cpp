@@ -2,5 +2,4 @@
 #include <iostream>
 
 Entity::Entity() {}
-
 Entity::~Entity() {}

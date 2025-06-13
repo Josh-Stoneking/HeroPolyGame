@@ -27,14 +27,13 @@ void Game::run() {
 }
 
 void Game::start() {
-    // Ask for name, create hero, set up first level
     std::string name = Hero::askCharName();
+    if (hero) delete hero;
     hero = new Hero(name);
     state = GameState::BATTLE;
 }
 
 void Game::battle() {
-    // Run battle logic
     battleSystem.startBattle(hero);
     if (hero->isAlive()) {
         state = GameState::INN;
