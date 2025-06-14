@@ -30,6 +30,15 @@ int Hero::getHealth() {
   return health;
 }
 
+int Hero::attack() {
+std::cout << this->name << " attacking!" << std::endl;
+return 0;
+}
+
+void Hero::block(int incomingAttack) {
+std::cout << this->name << " blocking!" << std::endl;
+}
+
 void Hero::takeDamage(int damageNum) {
   this->health -= damageNum;
 }

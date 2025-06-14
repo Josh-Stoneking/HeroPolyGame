@@ -18,7 +18,9 @@ class Hero : public Entity {
     std::string getName();
     int getHealth();
 
-    void takeDamage(int damageNum);
+    int attack() override;
+    void block(int incomingAttack) override;
+    void takeDamage(int damageNum) override;
 };
 
 #endif

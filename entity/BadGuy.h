@@ -4,9 +4,10 @@
 #include "Entity.h"
 
 class BadGuy : public Entity {
-public:
-BadGuy();
-~BadGuy();
+  protected:
+  public:
+  BadGuy();
+  ~BadGuy();
 };
 
 #endif
